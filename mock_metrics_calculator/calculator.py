@@ -19,9 +19,9 @@ class MockMetricsCalculator(
             type='tree',
             name='',
             path='',
-            metricResults=[
+            metric_results=[
                 TreeMetricResult(
-                    metricName='MccabeCC', subjectPath='', value=3, resultScope='package'
+                    metric_name='MccabeCC', subject_path='', value=3, result_scope='package'
                 )
             ],
             trees=[],
